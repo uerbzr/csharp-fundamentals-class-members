@@ -7,7 +7,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace csharp_fundamentals_class_members.Main
 {
-    public class Exercise
+    public class Core
     {
         // Below is an example of a class member in c#.
         // Where a class describes a thing, a member describes its attributes.
