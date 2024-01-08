@@ -5,55 +5,54 @@ namespace csharp_fundamentals_class_members.Test
 {
     public class CoreTests
     {
-        Core _exercise;
-
-
-        public CoreTests()
-        {
-            this._exercise = new Core();
-        }
-
+    
         [Test]
         public void shouldAnswerTheUltimateQuestion()
         {
-            Assert.AreEqual(42, this._exercise.answerToTheUltimateQuestion);
+            Core exercise = new Core();
+            Assert.AreEqual(42, exercise.answerToTheUltimateQuestion);
         }
 
         [Test]
         public void shouldBeAged32()
         {
-            Assert.AreEqual(32, this._exercise.age);
+            Core exercise = new Core();
+            Assert.AreEqual(32, exercise.age);
         }
 
         [Test]
         public void shouldBeNamedJane()
         {
-            Assert.AreEqual("Jane", this._exercise.firstName);
+            Core exercise = new Core();
+            Assert.AreEqual("Jane", exercise.firstName);
         }
 
         [Test]
         public void shouldBeAProgrammer()
         {
-            Assert.IsTrue(this._exercise.isProgrammer);
+            Core exercise = new Core();
+            Assert.IsTrue(exercise.isProgrammer);
         }
 
         [Test]
         public void firstNumberShouldBe9182()
         {
-            Assert.AreEqual(9182, this._exercise.firstNumber);
+            Core exercise = new Core();
+            Assert.AreEqual(9182, exercise.firstNumber);
         }
 
         [Test]
         public void firstStringShouldBeSpecific()
         {
-            Assert.AreEqual("Java is to Javascript what car is to carpet.", this._exercise.firstString);
+            Core exercise = new Core();
+            Assert.AreEqual("Java is to Javascript what car is to carpet.", exercise.firstString);
         }
 
         [Test]
         public void isVisibleShouldBePublic()
         {
-            
-            Assert.IsTrue(this._exercise.isVisible);
+            Core exercise = new Core();
+            Assert.IsTrue(exercise.isVisible);
         }
     }
 }
