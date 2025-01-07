@@ -18,6 +18,7 @@ namespace csharp_fundamentals_class_members.Test
         {
             Core exercise = new Core();
             Assert.AreEqual(32, exercise.age);
+            
         }
 
         [Test]
