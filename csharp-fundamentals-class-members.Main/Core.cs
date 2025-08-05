@@ -17,6 +17,7 @@ namespace csharp_fundamentals_class_members.Main
         // It has data type of int, which stands for integer. A numeric value.
         // Its name can be anything as long as that name isn't already in use.
         public int answerToTheUltimateQuestion = 42;
+        //nothing much
 
 
         //TODO: 1. Create an integer member named age with a value of 32
