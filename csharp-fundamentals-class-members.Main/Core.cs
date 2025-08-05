@@ -18,7 +18,11 @@ namespace csharp_fundamentals_class_members.Main
         // Its name can be anything as long as that name isn't already in use.
         public int answerToTheUltimateQuestion = 42;
         //nothing much
-
+        //another comment
+        /* a multi
+         * line
+         comment
+        */
 
         //TODO: 1. Create an integer member named age with a value of 32
         public int age = 33-1;
